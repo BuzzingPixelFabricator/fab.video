@@ -178,4 +178,4 @@ window[window.FABNAMESPACE] = window.window[window.FABNAMESPACE] || {};
             return create(selected, formatOrderPaths[selected]);
         }
     };
-})(window.FAB, document);
+})(window[window.FABNAMESPACE], document);
